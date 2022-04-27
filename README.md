@@ -12,7 +12,8 @@ My 1st project on building a HTML website withh CSS styling and a bit of JS codi
 # Demo
 http://codepen.io/lukejacksonn/pen/BowbWE
 
-Usage
+# Usage
+
 <head>
 <link href="greedynav.css" rel="stylesheet" type="text/css" >
 <script src="greedynav.js"></script>
@@ -33,6 +34,7 @@ Usage
   <ul class='hidden-links hidden'></ul>
 </nav>
 </body>
-TODO
-Extend demo to show varients
-Make into a web component
+
+# TODO
+- develop other pages
+- fix navbar issues: trigram & icons failed test of shrinking & clicking
