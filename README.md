@@ -13,19 +13,25 @@ My 1st project on building a HTML website withh CSS styling and a bit of JS codi
 https://codepen.io/ericjen01/pen/popMdjb
 
 # Usage
+```rb
+<header>
+  <legend>
+    <h1 id="logo">&#1421</h1>
+    <a class="title" class="restaurant_title" href="/">MYOSHI JAPANESE RESTAURANT</a>
+  </legend>
+  <lu class="navBar1">
+    <div class="crossBtn">&#x2612</div>
+    <li><a class="link" href="">Menu</a></li>
+    <li><a class="link" href="">Our Story</a></li>
+    <li><a class="link" href="">Photo Gallery</a></li>
+    <li><a class="link" href="">&#x2709</a></li>
+    <li id="contact"><a href="">Contact</a></li>
+  </lu> 
+  <div class="trigramBtn">&#x2630</div>
+</header>
 ```
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-<foreignObject width="100" height="100">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-        <ul>
-            <li>text</li>
-        </ul>
-        <!-- Other embed HTML element/text into SVG -->
-    </div>
-</foreignObject>
-</svg>
 
 # TODO
 - develop other pages
 - fix navbar issues: trigram & icons failed test of shrinking & clicking
-```
+
