@@ -1,4 +1,4 @@
-# myoshi
+# Myoshi
 Mini Project Website- Myoshi
 
 My 1st project on building a HTML website withh CSS styling and a bit of JS coding.
