@@ -10,7 +10,7 @@ My 1st project on building a HTML website withh CSS styling and a bit of JS codi
   - All logos and icons are Unicode
 
 # Demo
-http://codepen.io/lukejacksonn/pen/BowbWE
+https://codepen.io/ericjen01/pen/popMdjb
 
 # Usage
 
