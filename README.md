@@ -14,26 +14,16 @@ https://codepen.io/ericjen01/pen/popMdjb
 
 # Usage
 
-<head>
-<link href="greedynav.css" rel="stylesheet" type="text/css" >
-<script src="greedynav.js"></script>
-</head>
-<body>
-<nav class='greedy'>
-  <h1>GreedyNav</h1>
-  <ul class='links'>
-    <li><a href='#'>navbar</a></li>
-    <li><a href='#'>that</a></li>
-    <li><a href='#'>handles</a></li>
-    <li><a href='#'>overflowing</a></li>
-    <li><a href='#'>menu</a></li>
-    <li><a href='#'>elements</a></li>
-    <li><a href='#'>effortlessly</a></li>
-  </ul>
-  <button>MENU</button>
-  <ul class='hidden-links hidden'></ul>
-</nav>
-</body>
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>text</li>
+        </ul>
+        <!-- Other embed HTML element/text into SVG -->
+    </div>
+</foreignObject>
+</svg>
 
 # TODO
 - develop other pages
