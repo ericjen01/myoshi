@@ -9,7 +9,7 @@ My 1st project on building a HTML website withh CSS styling and a bit of JS codi
   - A side menu pops up and can be closed by clicking the cross icon
   - All logos and icons are Unicode
 
-Demo
+# Demo
 http://codepen.io/lukejacksonn/pen/BowbWE
 
 Usage
