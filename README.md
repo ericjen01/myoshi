@@ -13,7 +13,7 @@ My 1st project on building a HTML website withh CSS styling and a bit of JS codi
 https://codepen.io/ericjen01/pen/popMdjb
 
 # Usage
-
+```
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
 <foreignObject width="100" height="100">
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -28,3 +28,4 @@ https://codepen.io/ericjen01/pen/popMdjb
 # TODO
 - develop other pages
 - fix navbar issues: trigram & icons failed test of shrinking & clicking
+```
