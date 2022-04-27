@@ -1,0 +1,257 @@
+/*----------------------DEFAULT SETUP ------------------------------*/
+*{
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Encode Sans Condensed', sans-serif;
+   font-weight: 100;
+
+  --hilite: #F37416;
+  --black: #000;
+  --white: #fff; 
+  --sky: #b9afde;
+  --grey: #a5a8b8;
+  --nearblack: #2b2b2b;
+}
+
+h1{font-size: 30px;}
+
+h2{font-size: 25px;}
+
+h3{font-size: 22px;}
+
+p{font-size: 18px;}
+
+body{
+  color: var(--white);
+  background-color: var(--black);
+  text-align: center;
+}
+
+.columns{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+
+
+/*----------------------SECTION: STORE LOGO & NAVBAR ------------------------------*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(180deg, rgba(1,1, 1, 1)60%, rgba(0, 0, 0, .5)90%, rgba(0, 0, 0, 0)100% )
+}
+
+legend{
+  display: flex;
+  align-items: center;
+  color: #fff;
+} 
+
+#logo{
+  position: relative;
+  top: -10px;
+  margin: 20px 15px 20px 20px;
+  font-size: 50px;
+  font-weight:900; 
+}
+
+legend .title{
+  font-size: 25px;
+  color: #fff;
+  font-weight: 100;
+  min-width: 100%;
+  text-align: left;
+}
+
+.title:hover{
+  color: var(--sky);
+}
+
+.navBar1{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.trigramBtn, .crossBtn{
+  display: none;
+}
+
+.navBar1 li, a{
+  color: #fff;
+  margin-right: 20px;
+}
+
+.navBar1 a::after{
+  background-color: var(--hilite);
+  content: "";
+  height: 2px;
+  width: 0%;
+  display: block;
+  margin: auto;
+  transition: width 0.5s ease;
+}
+
+.navBar1 a:hover::after{
+  width: 100%;
+}
+
+.container{
+  width: 80%;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+/*----------------------SECTION: SHOWCASE ------------------------------*/
+.showcsase{
+  width: 100%;
+}
+
+.main_filtered_img{
+    position: relative;
+}
+
+.main_filtered_img img{
+  width:100%;
+}
+
+.main_filtered_img .shade{
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 1)5%, rgba(0, 0, 0, 0.5)20%, rgba(0, 0, 0, 0.5)70%, rgba(0, 0, 0, 1)95%);
+}
+
+#filtered_img{
+   width: 30%;
+   position: relative;
+}
+
+#filtered_img img{
+ width: 100%;
+}
+
+.filter{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  box-shadow: inset 0 0 15px 5px var(--black);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 1)5%, rgba(0, 0, 0, 0.5)20%, rgba(0, 0, 0, 0.5)70%, rgba(0, 0, 0, 1)95%);
+}
+/*----------------------SECTION: OUR FOCUS ------------------------------*/
+
+#our_focus{
+  margin-top: 100px;
+}
+
+#our_focus p{
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+.widget{
+  height: 100%;
+  width: 32%;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 1px var(--nearblack);
+}
+
+.widget h3{
+  margin-top: 40px;
+}
+
+.widget p{
+  margin: 15px 70px 50px 70px;
+}
+
+/*----------------------SECTION: STORE INFO ------------------------------*/
+#store_info h1{
+  margin-top: 70px;
+  font-size: 60px;
+  font-weight: 900; 
+  top: 10px;
+}
+
+#store_info a{
+  font-size: 25px;;
+}
+
+.navBar2 lu{
+  display: flex;
+  justify-content: center;
+}
+
+.navBar2 a:hover{
+  color: var(--sky);
+}
+
+/*----------------------SECTION: FOOTER ------------------------------*/
+footer p{
+  margin-top: 60px;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 5px;
+}
+
+/*---------------------- @media MEDIA QUERIES-----------------------------*/
+
+@media (max-width: 768px){
+  header{align-items: center;}
+  
+  legend .title{font-size: 20px;}
+  
+  .navBar1{flex-direction: column;}
+  
+  .columns{display: block;}
+  
+  #filtered_img{
+    margin: auto;
+    min-width: 400px;
+  }
+  
+  .widget{
+    margin: auto;
+    min-width: 400px;
+  } 
+  
+  .navBar1{
+    display:none;
+    justify-content: start;
+    align-items: start;
+    background-color: var(--hilite);
+    margin: 0;
+    padding: 10px 20px 0 15px;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  
+  .navBar1 li{padding-left: 40px;}
+ 
+ .trigramBtn{
+   display: block;
+   font-size: 30px;
+   margin: 10px 30px;
+  }
+  
+ .crossBtn{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .trigramBtn:hover, .crossBtn:hover, .link:hover{
+    color: var(--sky);
+    cursor: pointer;
+  }
+}
